@@ -31,6 +31,7 @@ export class MainMenu extends Scene
     
     changeScene ()
     {
+
         if (this.logoTween)
         {
             this.logoTween.stop();
